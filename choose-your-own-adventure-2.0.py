@@ -52,7 +52,7 @@ elif door_choice == "blue":
         choice_4 = input("What's your wish? Type '$' for infinite money or 'home' to go home: ")
         
         if choice_4 == "home":
-            print("""__________SUCCESS__________
+            print("""__________GAME OVER__________
 The shell whisks you back home and you live happily ever after with no worries in the world.""")
         elif choice_4 == "$":
             print("""__________GAME OVER__________
