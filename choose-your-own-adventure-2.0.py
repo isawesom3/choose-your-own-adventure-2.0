@@ -1,12 +1,15 @@
+#the intro
 name = "Sqiddyinkster🤣"
 print(f"Welcome to {name}'s choose ur own adventure game! Let's get started.")
 print("You find yourself in a dark, dank room with 2 doors. One is red and one is blue.")
 door_choice = input("Which door do you go in? Type 'red' for the red door or 'blue' for the blue door: ")
 
+#the door_choice is which door you pick same for all the choices
 if door_choice == "red":
     print("You walk into the red door and meet a mad scientist who's on a mission to rule the village he lives in!")
     choice_1 = input("Do you want to help? Type '1' for help or '2' for don't help: ")
-    
+
+    #pick a choice,you get text.
     if choice_1 == "1":
         print("You help him achieve village domination! In return, he offers you one of the following two items: an instant money machine or an infinite food pot.")
         choice_3 = input("Do you take the money machine, the food pot, or both? Type 'm' for the money machine, 'p' for the food pot, or 'b' to take both: ")
@@ -21,6 +24,7 @@ You now own a Lambo! You decide to take her for a spin in rush hour. You speed d
             elif mini_choice == "h":
                 print("""__________SUCCESS__________
 You fly your new helicopter to your house and live happily ever after.""")
+#the success message
         
         elif choice_3 == "p":
             print("You take the pot and accidentally make enough food to last you 6 years.")
@@ -36,6 +40,7 @@ You get the silly idea of eating it all in one sitting. When you swallow your 60
         elif choice_3 == "b":
             print("""__________GAME OVER__________
 You snatch both and try to run before the scientist notices. But he reacts quickly, activating emergency lockdown mode. You try to escape through a window, but lasers chop you to bits!""")
+            #gme over message
         else:
             print("Invalid choice.")
     
